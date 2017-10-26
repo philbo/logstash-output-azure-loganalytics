@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name = 'logstash-output-azure_loganalytics'
+  s.name = 'logstash-output-azure-loganalytics'
   s.version    =  File.read("VERSION").strip
   s.authors = ["philbo"]
   s.summary = %q{logstash output plugin to store events into Azure Log Analytics}
   s.description = s.summary
-  s.homepage = "http://github.com/philbo/logstash-output-azure_loganalytics"
+  s.homepage = "http://github.com/philbo/logstash-output-azure-loganalytics"
   s.licenses = ["Apache-2.0s"]
   s.require_paths = ["lib"]
 
